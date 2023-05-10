@@ -5,3 +5,5 @@ CREATE TABLE IF NOT EXISTS `user`(
    `mobile_phone` varchar(255) DEFAULT NULL,
    PRIMARY KEY ( `id` )
 )ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+insert into mypro.`user`(`id`,`username`,`password`,`mobile_phone`) VALUES ('1','alex','Yy970714!','13026367976');
